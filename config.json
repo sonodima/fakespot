@@ -1,0 +1,12 @@
+{
+    "whitelist": [
+        "captive.apple.com",
+        "msftconnecttest.com",
+        "msftncsi.com",
+        "clients3.google.com",
+        "connectivitycheck.gstatic.com",
+        "connectivitycheck.android.com",
+        "detectportal.firefox.com",
+        "nmcheck.gnome.org"
+    ]
+}

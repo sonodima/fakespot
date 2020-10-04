@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gnomed</title>
+        
+        <link rel="stylesheet" href="/css/splash.css">
+	</head>
+
+	<body>
+        <div>
+            <img class="top-img pt-4" src="/img/gnome.png">
+            <h1 class="center-text">You Have Been Gnomed</h1>
+            <h3 class="center-text">There is no Free WiFi here</h3>
+
+            <h3 class="center-text pt-2">You're the <%- visits %>th visitor</h3>
+            <h3 class="center-text">People insulted me <span id="insults"><%- insults %></span> times 🥺</h3>
+
+            <input class="center-button mt-1" id="insult" type="button" value="Insult">
+        </div>
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/splash.js"></script>
+	</body>
+</html>
