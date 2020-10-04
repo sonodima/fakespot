@@ -34,7 +34,7 @@ server.on('request', async (req, res, info) => {
 });
 
 start = async (port) => { await server.listen(port); }
-setWhitelist = (whitelist) => { this.whitelist = whitelist; }
+setWhitelist = (list) => { whitelist = list; }
 
 module.exports = {
     start,
