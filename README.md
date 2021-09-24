@@ -1,4 +1,4 @@
-<h1 align="center">fakespot 📡</h1>
+<h1 align="center">Fakespot 📡</h1>
 <p>
 </p>
 
